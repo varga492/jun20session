@@ -1,0 +1,93 @@
+* body>div {
+    height: 100vh;
+    width: 100vh;
+    background-color: aqua;
+}
+
+div>div {
+    height: 90vh;
+    width: 90vh;
+    background-color: azure;
+}
+
+div>div>div {
+    height: 80vh;
+    width: 80vh;
+    background-color: yellow;
+}
+
+div>div>div>div {
+    height: 70vh;
+    width: 70vh;
+    background-color: red;
+}
+
+div>div>div>div>div {
+    height: 60vh;
+    width: 60vh;
+    background-color: grey;
+}
+
+div>div>div>div>div>div {
+    height: 50vh;
+    width: 50vh;
+    background-color: coral;
+}
+
+div>div>div>div>div>div>div {
+    height: 40vh;
+    width: 40vh;
+    background-color: darkgreen;
+}
+
+div>div>div>div>div>div>div>div {
+    height: 30vh;
+    width: 30vh;
+    background-color: dodgerblue;
+}
+
+div>div>div>div>div>div>div>div>div {
+    height: 20vh;
+    width: 20vh;
+    background-color: grey;
+}
+
+div>div>div>div>div>div>div>div>div>div {
+    height: 10vh;
+    width: 10vh;
+    background-color: purple;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.most-outer>.inner {
+    border: 8px solid black;
+}
+
+a[href="https://www.codecool.com"] {
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.most-inner:hover {
+    background-color: bisque;
+}
+
+.most-inner::before {
+    content: "aa";
+}
+
+.most-inner::after {
+    content: "zz";
+    right: 0;
+    display: block;
+    background-color: brown;
+    width: 130px;
+}
